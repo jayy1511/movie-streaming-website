@@ -1,0 +1,204 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth ;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(Images/Heroes/7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    width:100%;
+}
+.logo{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.logo img{
+    height: 8vh;
+    margin-top: 40px;
+}
+.logo h3{
+    color: teal;
+    font: 25px;
+    margin-top: -35px;
+    margin-left: 55px;
+}
+
+.nav ul{
+    display:flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: teal;
+}
+.nav ul li a:hover{
+    color: teal;
+    font-weight: bolder;
+}
+.user{
+    cursor: pointer;
+    color: teal;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.user a{
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+.user a:hover{
+    background-color: black;
+    color:teal;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+.heropage{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.inside-heropage{
+    line-height: 1.2;
+}
+.inside-heropage h1{
+    font-size: 40px;
+}
+.inside-heropage p{
+    font-size: 17px;
+}
+span{
+    color: teal;
+    font-weight: bold;
+}
+.line1{
+    height: 2px;
+    color: teal;
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 320px;
+    float: right;
+    border-radius: 10px;
+}
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background: teal;
+    border-radius: 20px;
+}
+.btn1 a:hover{
+    background-color: black;
+    color: teal;
+}
+.btn1 i{
+    color: black;
+    padding: 0px 10px;
+}
+.trending-now{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 500px;
+    padding: 0px 20px;
+}
+.trending-now h1{
+    font-size: 20px;
+    color: teal;
+}
+.latest-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.latest-inside img{
+    height: 122px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+.latest-inside img:hover{
+    transform: scale(1.2);
+}
+.heading1{
+    color:white;
+    line-height: 1.5;
+}
+.heading1 h4{
+    font-size: 15px;
+}
+.heading1 h6{
+    font-size: 12px;
+}
+.btn2{
+    margin-top: -30px;
+    margin-left: 150px
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 13px;
+    background: teal;
+    padding: 7px 7px;
+    color: white;
+    border-radius: 10%
+}
+.btn2 a:hover{
+    background-color: black;
+    color: teal;
+}
+.trending{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20px;
+    color: white;
+    margin-top: 850px;
+}
+.trending h1{
+    font-size: 20px;
+    color: teal;
+}
+.trending-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
