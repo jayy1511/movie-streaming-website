@@ -20,5 +20,6 @@ Vegamovies is a frontend-only implementation of a movie streaming website, desig
 To use Vegamovies, simply clone this repository and open the `Movieweb.html` file in your web browser. You can then browse through the collection of movies, view their details, and enjoy streaming!
 
 ```bash
-git clone https://github.com/your-username/FlixifyFrontend.git
-cd FlixifyFrontend
+git clone https://github.com/jayy1511/movie-streaming-website.git
+cd movie-streaming-website
+
